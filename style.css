@@ -43,3 +43,36 @@ nav ul li a {
     border-radius: 4px;
     transition: background-color 0.3;
 }
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.firstrow {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+header {
+
+}
+
+aside{
+
+}
+article{
+
+}
+
+footer{
+    
+}
