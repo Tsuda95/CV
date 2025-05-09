@@ -25,7 +25,7 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: center
+    justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -76,6 +76,44 @@ nav ul li a {
     flex-direction: column;
     gap: 20px;
     align-items: flex-start;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: rgb(76, 121, 117);
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+.about {
+
 }
 header {
 
